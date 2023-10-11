@@ -1,0 +1,82 @@
+location,location_state,location_city,num_of_employees
+Remote,Kentucky,Frankfort,8
+Remote,Pennsylvania,Johnstown,9
+Remote,Pennsylvania,"Mc Keesport",10
+Remote,Michigan,Troy,10
+Remote,Indiana,Jeffersonville,10
+Remote,Illinois,Bloomington,11
+Remote,Pennsylvania,York,11
+Remote,Illinois,Decatur,11
+Remote,Michigan,Midland,12
+Remote,Michigan,Warren,12
+Remote,Kentucky,London,12
+Remote,Illinois,Naperville,12
+Remote,Illinois,Joliet,12
+Remote,Michigan,Dearborn,12
+Remote,Pennsylvania,"Valley Forge",12
+Remote,Illinois,Evanston,12
+Remote,Ohio,Hamilton,13
+Remote,Michigan,"Battle Creek",13
+Remote,Illinois,Champaign,13
+Remote,Indiana,Lafayette,14
+Remote,Indiana,Muncie,14
+Remote,Indiana,Crawfordsville,14
+Remote,Ohio,Springfield,14
+Remote,Ohio,Lima,15
+Remote,Michigan,"Ann Arbor",15
+Remote,Indiana,Bloomington,15
+Remote,Pennsylvania,Bethlehem,15
+Remote,Illinois,Palatine,16
+Remote,Wisconsin,Racine,16
+Remote,Wisconsin,Appleton,16
+Remote,Illinois,"East Saint Louis",16
+Remote,Michigan,Muskegon,16
+Remote,Illinois,Schaumburg,17
+Remote,Pennsylvania,Allentown,18
+Remote,Ohio,Mansfield,18
+Remote,Illinois,Aurora,18
+Remote,Pennsylvania,Levittown,18
+Remote,Pennsylvania,"New Castle",18
+Remote,Michigan,Southfield,19
+Remote,Michigan,Farmington,20
+Remote,Indiana,Anderson,20
+Remote,Michigan,Saginaw,20
+Remote,Ohio,Warren,21
+Remote,Indiana,Gary,22
+Remote,Illinois,"Carol Stream",24
+Remote,Indiana,"Terre Haute",25
+Remote,Wisconsin,"Green Bay",27
+Remote,Pennsylvania,Reading,28
+Remote,Pennsylvania,Scranton,30
+Remote,Pennsylvania,Lancaster,31
+Remote,Illinois,Rockford,33
+Remote,Michigan,Kalamazoo,36
+Remote,Ohio,Youngstown,38
+Remote,Pennsylvania,"Wilkes Barre",42
+Remote,Michigan,Flint,48
+Remote,Indiana,"South Bend",54
+Remote,Ohio,Canton,74
+Remote,Pennsylvania,Harrisburg,77
+Remote,Michigan,"Grand Rapids",77
+Remote,Michigan,Lansing,87
+Remote,Pennsylvania,Erie,95
+Remote,Indiana,Evansville,101
+Remote,Ohio,Akron,105
+Remote,Ohio,Toledo,108
+Remote,Illinois,Peoria,114
+Remote,Wisconsin,Madison,115
+Remote,Indiana,"Fort Wayne",120
+Remote,Illinois,Springfield,127
+Remote,Ohio,Cleveland,131
+Remote,Ohio,Columbus,144
+Remote,Wisconsin,Milwaukee,147
+Remote,Indiana,Indianapolis,163
+Remote,Kentucky,Lexington,166
+Remote,Ohio,Dayton,170
+Remote,Michigan,Detroit,172
+Remote,Kentucky,Louisville,189
+Remote,Ohio,Cincinnati,227
+Remote,Pennsylvania,Pittsburgh,238
+Remote,Pennsylvania,Philadelphia,278
+Remote,Illinois,Chicago,294
+Headquarters,Ohio,Cleveland,13710
