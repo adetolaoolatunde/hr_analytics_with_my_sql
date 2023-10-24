@@ -47,6 +47,23 @@ GROUP BY age_group
 ORDER BY age_group
 ;
 
+SELECT 
+  CASE 
+    WHEN age BETWEEN 18 AND 24 THEN '18-24'
+    WHEN age BETWEEN 25 AND 34 THEN '25-34'
+    WHEN age BETWEEN 35 AND 44 THEN '35-44'
+    WHEN age BETWEEN 45 AND 54 THEN '45-54'
+    WHEN age BETWEEN 55 AND 64 THEN '55-64'
+    ELSE '65+'
+  END AS age_group,
+  gender,
+  COUNT(*) AS num_of_employees
+FROM hr
+WHERE age >= 18 AND termdate IS NULL
+GROUP BY age_group, gender
+ORDER BY age_group
+;
+
 -- How many employees work at headquarters versus remote locations?
 -- ================================================================
 SELECT location, COUNT(*) num_of_employees
@@ -110,3 +127,26 @@ ORDER BY num_of_employees
 
 -- How has the company's employee count changed over time based on hire and term dates?
 -- ====================================================================================
+SELECT 
+	b.year year, 
+	a.hire hired, 
+    b.term term,
+    a.hire - b.term AS net_change,
+    ROUND(((a.hire - b.term)/a.hire) * 100, 2) AS net_change_percent
+FROM 
+	( SELECT YEAR(hire_date) year, 
+			 COUNT(*) hire
+	  FROM hr
+      WHERE age >= 18
+      GROUP BY year
+      ORDER BY year
+	) a RIGHT JOIN 
+    ( SELECT YEAR(termdate) year, COUNT(*) term 
+      FROM hr
+      WHERE age >= 18
+      GROUP BY year
+      ORDER BY year
+	) b 
+ON a.year = b.year
+WHERE b.year <= YEAR(CURDATE())
+;
